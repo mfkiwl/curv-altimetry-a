@@ -8,3 +8,5 @@ Also, a function to solve reflection parameters on the spherical horizon.
 
 For the documentation of the main algorithm input and output parameters, 
 please see function [get_spherical_reflection.m](get_spherical_reflection.m).
+
+The original repository of the code is [geo-alhazen](https://github.com/vitorhjr/geo-alhazen).
