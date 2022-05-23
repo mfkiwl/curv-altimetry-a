@@ -9,7 +9,7 @@ ehor = get_horizon_elevation_angle(Ha);
 e = [90:-0.1:ehor ehor]; % elevation angles domain
 
 %% COMPUTATION
-type = 'b';
+type = 'a';
 rH = get_curvature_altimetry_retrieval_pdoppler_series_residual (e, Ha, DH, type);
 [dH, k, dk] = get_curvature_altimetry_correction_pdoppler_series_residual_aux (DH, rH);
 
